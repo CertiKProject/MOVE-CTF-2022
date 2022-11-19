@@ -1,0 +1,11 @@
+[package]
+name = "challenge_one"
+version = "0.0.6"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+ctf = { local = "../movectf" }
+
+[addresses]
+challenge_one =  "0x0"
+sui =  "0000000000000000000000000000000000000002"
